@@ -1,0 +1,141 @@
+*{
+    background-color: rgb(13, 13, 13);
+}
+/* .container{
+    background-image: linear-gradient(to right, black, cyan);
+  } */
+.navbar{
+    height: 60px;
+    width: 800px;
+    background-color: black;
+    color:greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.nav-logo {
+    height: 60px;
+    width: 100px;
+    background-color: bisque;
+    color: greenyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-container {
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: right;
+}
+.home:hover{
+    background-color: rgb(38, 37, 37);
+    height: 60px;
+    width: 70px;
+    border: 2px solid yellow;
+}
+.contact:hover {
+    background-color: rgb(55, 55, 55);
+    height: 60px;
+    width: 100px;
+    border: 2px solid yellow;
+}
+#h3:hover {
+    background-color: rgb(55, 55, 55);
+}
+.photo {
+    height: 600px;
+    width: 450px;
+    background-color: white;
+    background-image: url("portfolio-profile.png");
+    background-size: cover;
+}
+.main-body {
+    display: flex;
+}
+.content-home {
+    height: 500px;
+    width: 900px;
+    margin: 10px;
+    /* background-color: black;
+} */
+}
+.my-skills {
+    height: 40px;
+    display: flex;
+    font-size: 30px;
+    text-align: center;
+}
+.skill-set {
+    height: 500px;
+    width: 1300px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.skill-photo {
+    margin-top: 80px;
+    height: 180px;
+    width: 240px;
+    background-color: white;
+    background-size: cover;
+}
+.skill-photo:hover {
+    border: 20px solid white;
+}
+.content-pane {
+    height: 40px;
+    width: 100vw;
+    margin-top: 10px;
+    background-color: rgb(0, 0, 0);
+}
+.skills-offered{
+    height: 100px;
+    width: 100vw;
+    margin-top: 30px;
+    background-color: rgb(7, 7, 7);
+}
+.skill-row {
+    height: 300px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.skill-pic {
+    height: 200px;
+    width: 200px;
+    background-color: aliceblue;
+    background-size: cover;
+    border-radius: 100px;
+}
+.skill-pic:hover {
+    border: 4px solid white;
+}
+.projects-customers {
+    height: 300px;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.projects {
+    height: 100px;
+    width: 100px;
+    background-color: black;
+}
+.number {
+    font-size: x-large;
+    color: cyan;
+}
+.mail {
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mail:hover {
+    border: 3px solid white;
+}
