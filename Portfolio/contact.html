@@ -3,61 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact - YARAKARAJU ADITYA</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <div class="nav-container">
-            <div class="navbar">
-                <div class="home">
-                    <div class="home-icon">
-                        <h3><a href="index.html" style="color: greenyellow;">HOME</a></h3>
-                    </div>
-                </div>
-                    
-                <div class="home">
-                    <div class="about-myself">
-                        <h3><a href="about.html" style="color: greenyellow;">ABOUT</a></h3>
-                    </div>
-                </div>
-    
-                <div class="home">
-                    <h3><a href="skills.html" style="color: greenyellow;">SKILLS</a></h3>
-                </div>
-    
-                <div class="home">
-                    <h3><a href="blogs.html" style="color: greenyellow;">BLOGS</a></h3>
-                </div>
-    
-                <div class="contact">
-                    <h3><a href="contact.html" style="color: greenyellow;">CONTACT</a></h3>
-                </div>
-        
-            </div>
-        </div> 
-
-        <div class="contact-us">
-            <h1 style="color: white;">CONTACT: </h1>
+    <!-- Navbar -->
+        <div class="container">
+            <nav class="navbar">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="blogs.html">Blogs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
         </div>
 
-        <div class="skill-row" style="margin-top: 150px;">
-            <div class="mail-us">
-                <a href="mailto:yraditya895@gmail.com" style="text-decoration: none; color: inherit;">
-                    <div class='mail' id='mail' style="color: white; height: 100px; width: 100px; font-size: xx-large;">
+    <!-- Contact Section -->
+    <div class="container">
+        <div class="contact-us">
+            <h1>Contact</h1>
+        </div>
+
+        <div class="contact-row">
+            <div class="contact-card">
+                <a href="mailto:yraditya895@gmail.com" class="contact-link">
+                    <div class='contact-icon' id='mail'>
                         <i class="fa-regular fa-envelope"></i>
                     </div>
-                    <h2 style="color: white;">MAIL</h2>
+                    <h2>Mail</h2>
                 </a>
             </div>
-            <div class="call-us">
-                <a href="tel:+910000000000" style="text-decoration: none; color: inherit;">
-                    <div class='mail' id='call' style="color: white; height: 100px; width: 100px; font-size: xx-large;">
+            <div class="contact-card">
+                <a href="tel:+916302774956" class="contact-link">
+                    <div class='contact-icon' id='call'>
                         <i class="fa-solid fa-phone"></i>
                     </div>
-                    <h2 style="color: white;">CALL</h2>
+                    <h2>Call</h2>
                 </a>
             </div>
         </div>
-        <script src="script.js"></script>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
